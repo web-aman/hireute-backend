@@ -8,7 +8,7 @@ module.exports.generateRandomOTP = () => {
     for (let i = 0; i < 6; i++) {
       OTP += digits[Math.floor(Math.random() * 10)];
     }
-    return OTP;
+    return OTP
   } catch (error) {
     throw error;
   }
